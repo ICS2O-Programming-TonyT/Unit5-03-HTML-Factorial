@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Multiplication Table</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" type="image/webp" href="./images/favicon.png">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Multiplication Table</h1>
+    <form id="converter-form">
+      <div class="form-group">
+        <label for="sentence">Enter a sentence:</label>
+        <input type="text" id="sentence" required>
+      </div>
+      <div class="form-group">
+        <label for="repeat">How many times to repeat?:</label>
+        <input type="number" step="0" id="repeat" required>
+      </div>
+      <button type="submit" id="convert-btn">Check</button>
+    </form>
+    <div id="result"></div>
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
